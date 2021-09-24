@@ -1,5 +1,5 @@
 1. Run Google WebServer (Browser based extension)
-2. Run npm index.js in the package.json folder (work)
+2. Run node index.js in the package.json folder (work)
 3. localhost:8080
 4. Use the same link in another browser (Same ID)
 http://localhost:8080/#fadc9de12c126
