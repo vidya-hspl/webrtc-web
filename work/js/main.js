@@ -12,7 +12,7 @@ const localVideo = document.querySelector("video");
 let localStream;
 
 // Handles success by adding the MediaStream to the video element.
-function getLocalMediaStream(mediaStream) {
+function gotLocalMediaStream(mediaStream) {
   localStream = mediaStream;
   localVideo.srcObject = mediaStream;
 }
@@ -25,5 +25,5 @@ function handleLocalMediaStreamError(error) {
 // Initializes media stream.
 navigator.mediaDevices
   .getUserMedia(mediaStreamConstraints)
-  .then(getLocalMediaStream)
+  .then(gotLocalMediaStream)
   .catch(handleLocalMediaStreamError);
