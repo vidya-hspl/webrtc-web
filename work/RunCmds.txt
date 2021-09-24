@@ -1,0 +1,11 @@
+1. Run Google WebServer (Browser based extension)
+2. Run npm index.js in the package.json folder (work)
+3. localhost:8080
+4. Use the same link in another browser (Same ID)
+http://localhost:8080/#fadc9de12c126
+5. Only then will all 3 buttons show up
+6. Snap and Send !! :)
+
+Notes - 
+Take a photo and share - Works when there is another person 
+to send the data to
